@@ -1,7 +1,13 @@
 import RootLayout from "@/Components/Layout/RootLayout";
 
+import HomePageResume from "@/Components/resum/HomePageResume";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <HomePageResume></HomePageResume>
+    </div>
+  );
 };
 
 export default HomePage;
