@@ -36,7 +36,7 @@ const HomePageResume = () => {
         </div>
       </div>
 
-      <Editor sections={sections}></Editor>
+      <Editor sections={sections} />
     </div>
   );
 };
